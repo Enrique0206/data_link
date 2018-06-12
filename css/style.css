@@ -2,14 +2,9 @@ body{
 	margin: 0;	
 }
 
-*/*#logo_social {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.row .col-lg-12.col-md-12.col-sm-6.col-xs-12 img {
-	margin-left: 20px;
-}*/
+/*#servicios .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+            padding-top: 10px;	
+        }*/
 
 /*slider*/
 #slider{
@@ -20,6 +15,11 @@ body{
 	width: 100%;
 }
 /*slider*/
+
+/*contenido*/
+/*clase para linea en servicios*/
+
+/*contenido*/
 
 /*clase para el tamano de texto de los parrafos y fuente*/
 .tamanio_texto {
@@ -34,60 +34,11 @@ body{
         list-style: none;
         text-decoration: none;
 }
-/*cllase para fuente titulos y subtitulos*/
-
-/*contenido debajo de slider*/
-/*#contenido {
-	position: relative;
-	padding-bottom: 170px;
-}*/
-
+/*clase para fuente titulos y subtitulos*/
 
 .row .col-lg-4.col-md-4.col-sm-12.col-xs-12 .img-responsive {
 	width: 50%;
 }		
-
-/*estilos de la etiqueta resenia */
-	/*#resenia {	
-		position: absolute;
-		z-index: 2; 
-		top: -180px;  
-		opacity: 0.85;
-	}       
-	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
-		color: #002377;
-                padding-bottom: 30px;
-                display:none;
-	}
-
-    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-            color:#000000;
-                padding-bottom: 30px;
-                display:none;
-	}
-        
-	#servicios p {
-		display:none;
-	}
-
-	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
-		background-color:#86E773;
-		padding-top: 35px;
-		padding-bottom: 50px;
-		padding-left: 70px;
-		padding-right: 70px;
-	}	*/
-
-	/*padding para cuadrar los 4 servicion en la etiqueta*/
-	/*#contenido .row.tamanio_texto {
-		padding-top: 300px;
-	}*/
-	/*padding para cuadrar los 4 servicion en la etiqueta*/
-
-/*estilos de la etiqueta resenia*/
-
-/*contenido*/
-
 
 /*ventas*/
 #precio_pack .container.text-center h1 {
@@ -96,14 +47,7 @@ body{
 	padding-bottom: 30px;
 }
 
-/*#ventas {
-	background-color: #E9E9E9;
-	padding-top: 100px;
-	padding-bottom: 30px;
-}*/
-/*#ventas .container .row.text-center .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
-	transition: 0.5s;*/ /*para el hover con jquery*/
-/*}*/
+
 
 /*clase para hover de folio -- ambas se aplican con jquery*/
 .color_ventas {
@@ -127,60 +71,9 @@ body{
 /*ventas*/
 
 /*conceptos*/
-/*#conceptos {
-	padding-top: 100px;
-	padding-bottom: 90px;
-}*/
-
 #conceptos p{
   display:none;
 }
-
-/*.line_vetical {	
-	margin-top: 26px;
-	border-left: 1px solid #7CB342;
-	min-height: 220px;
-}*/
-/*conceptos*/
-
-/*seccion videos*/
-/*#videos {
-	background-color: rgba(58,229,179,1.00);
-	
-}*/
-
-/*.espacios_videos {
-	padding-top: 34px;
-	padding-bottom: 34px;
-}
-
-.entre_videos{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}*/
-/*seccion videos*/
-
-/*seccion equipo de trabajo*/
-/*#equipo {
-	padding-top: 40px;
-	padding-bottom: 70px;
-}
-
-#equipo .text-center {
-	padding-bottom: 50px;
-}*/
-/*seccion equipo de trabajo*/
-
-
-/*enlaces*/
-/*#enlaces {
-	background-color: #E9E9E9;
-	padding-top: 40px;	
-}
-
-#enlaces .text-center {
-	padding-bottom: 50px; 
-}*/
 
 #enlaces img{
     transition:all 1s;
@@ -200,6 +93,7 @@ body{
      transform: rotateY(-180deg);
   }
 /*enlaces*/
+
 
 /*pie de pagina*/
 #pie {
@@ -250,12 +144,12 @@ body{
 
 /*media query responsive*/
 
-@media (min-width: 1200px) {
-	/*logo*/
-    /*.navbar-header .navbar-brand .img-responsive {
-	margin-top: 0px;
-	}*/
-	/*logo*/
+@media (min-width: 1200px) {	
+	
+	.linea {		
+	border-left: 1px solid #7CB342;
+	height: 82px;	
+	}
 	
 	#contenido {
 	position: relative;
@@ -271,20 +165,20 @@ body{
 	
 	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
 	color: #002377;
-        padding-bottom: 30px;
-        display:none;
+    padding-bottom: 30px;
+    display:none;
 	}
 
-        #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-        color:#000000;
-        padding-bottom: 30px;
-        display:none;
-	}
+    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+    color:#000000;
+    padding-bottom: 30px;
+    display:none;
+	}       
         
 	#servicios p {
 	display:none;
 	}
-
+       
 	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 35px;
@@ -318,24 +212,7 @@ body{
 	min-height: 220px;
 	}
 	/*conceptos*/
-	
-	/*videos*/
-	/*#videos h4 {
-		font-size: 22px;
-		text-align: center;
-	}
-	
-	.espacios_videos {
-	padding-top: 34px;
-	padding-bottom: 34px;
-	}
-
-	.entre_videos{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	}*/
-	/*videos*/
-	
+		
 	/*equipo*/
 	#equipo {
         background-color: rgba(58,229,179,1.00);
@@ -363,10 +240,12 @@ body{
 
 
 @media (min-width: 992px) and (max-width: 1199px){
-    /*.navbar-header .navbar-brand .img-responsive {
-	margin-top: 12px;
-	}	*/
-	
+    
+        .linea {		
+	border-left: 1px solid #7CB342;
+	height: 82px;	
+	}
+    	
 	#contenido {
 	position: relative;
 	padding-bottom: 110px;
@@ -377,23 +256,24 @@ body{
 	z-index: 2; /* put .green-box above .dashed-box */ 
 	top: -180px;  
 	opacity: 0.9;
-	}       
+	}   
+	
 	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
-            color: #002377;
-        padding-bottom: 30px;
-        display:none;
+    color: #002377;
+    padding-bottom: 30px;
+    display:none;
 	}
 
-        #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-        color:#000000;
-        padding-bottom: 30px;
-        display:none;
+    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+    color:#000000;
+    padding-bottom: 30px;
+    display:none;
 	}
         
 	#servicios p {
 	display:none;
 	}
-
+        
 	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 35px;
@@ -427,27 +307,10 @@ body{
 	min-height: 220px;
 	}
 	/*conceptos*/
-	
-	/*videos*/
-	/*#videos h4 {
-		font-size: 22px;
-		text-align: center;
-	}
-	
-	.espacios_videos {
-	padding-top: 34px;
-	padding-bottom: 34px;
-	}
-
-	.entre_videos{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	}*/
-	/*videos*/
-	
+		
 	/*equipo*/
 	#equipo {
-        background-color: rgba(58,229,179,1.00);
+    background-color: rgba(58,229,179,1.00);
 	padding-top: 40px;
 	padding-bottom: 70px;
 	}
@@ -476,7 +339,7 @@ body{
 	
 	#contenido {
 	position: relative;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 	}
 	
 	#resenia {	
@@ -486,7 +349,7 @@ body{
 	opacity: 0.9;
 	}      
 	
-        #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
+    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
         color: #002377;
         padding-bottom: 30px;
         display:none;
@@ -497,11 +360,21 @@ body{
         padding-bottom: 30px;
         display:none;
 	}
-        
+     	
+        /*servicios*/
+	#servicios {
+		padding-top: 44px;		
+	}		
+	
+	#servicios .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+		padding-bottom: 40px;
+                padding-top: 50px;
+	}
 	#servicios p {
 	display:none;
-	}
-
+	}	
+	/*servicios*/	
+        
 	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 35px;
@@ -541,27 +414,10 @@ body{
 	display: none;
 	}
 	/*conceptos*/
-	
-	/*videos*/
-	/*#videos h4 {
-		font-size: 22px;
-		text-align: center;
-	}
-	
-	.espacios_videos {
-	padding-top: 22px;
-	padding-bottom: 34px;
-	}
-
-	.entre_videos{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	}*/
-	/*videos*/
-	
+		
 	/*equipo*/
 	#equipo {
-        background-color: rgba(58,229,179,1.00);
+    background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
 	}
@@ -585,54 +441,51 @@ body{
 }
 
 @media (max-width: 767px){
-	/*logo*/
-    /*.navbar-header .navbar-brand .img-responsive {
-		background-color: red;
-	padding-bottom: 40px;
-	display: none;
-	}*/
-	/*logo*/	
-	
-	
-	#contenido {
-	/*position: relative;*/
-	padding-bottom: 35px;
+		
+	#contenido {        
+	padding-bottom: 0px;	
 	}
 	
+	/*resenia*/
 	#resenia {	
-		/*position: absolute;*/
-		/*z-index: 2;*/ /* put .green-box above .dashed-box */ 
-		/*top: -180px; */ 
+	padding-top: 0px;
 	opacity: 0.9;
 	}   
 	
 	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
 	text-align: center;
 	color: #002377;
-        padding-bottom: 16px;
-        display:none;
+    padding-bottom: 16px;
+    display:none;
 	}
 
-        #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-        color:#000000;
-        padding-bottom: 30px;
-        display:none;
-	}  
-	
-	#servicios p {
-	display:none;
+    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+    color:#000000;
+    padding-bottom: 30px;		
+    display:none;
 	}
-
-	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
+        
+    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 12px;
 	padding-bottom: 0px;		
 	}	
+	/*resenia*/
 	
-	#contenido .row.tamanio_texto {
-	padding-top: 30px;
+	/*servicios*/
+	#servicios {
+		padding-top: 44px;		
+	}		
+	
+	#servicios .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+		padding-bottom: 44px;
 	}
+	#servicios p {
+	display:none;
+	}	
+	/*servicios*/
 	
+	/*ventas*/
 	#ventas {
 	background-color: #E9E9E9;
 	padding-top: 46px;
@@ -642,6 +495,7 @@ body{
 	#ventas .container .row.text-center .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
 	transition: 0.5s; /*para el hover con jquery*/
 	}
+	/*ventas*/
 	
 	/*conceptos*/
 	#conceptos {
@@ -660,27 +514,10 @@ body{
 	display: none;
 	}
 	/*conceptos*/
-	
-	/*videos*/
-	/*#videos h4 {
-		font-size: 22px;
-		text-align: center;
-	}
-	
-	.espacios_videos {
-	padding-top: 14px;
-	padding-bottom: 32px;
-	}
-
-	.entre_videos{
-	padding-top: 12px;
-	padding-bottom: 10px;
-	}*/
-	/*videos*/
-	
+		
 	/*equipo*/
 	#equipo {
-        background-color: rgba(58,229,179,1.00);
+    background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
 	}
@@ -701,5 +538,3 @@ body{
 	}
 	/*enlaces*/
 }
-
-

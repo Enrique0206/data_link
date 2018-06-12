@@ -95,25 +95,25 @@
 					</div>
 				</div>
 		  	</div>
-		  	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		  	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank"><img src="images/pgn/download.svg" alt="descarga" height="60px" width="80px"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"></a>VERIFICAR CFDI</h5>
+						<h5 class="fuente_tit_sub"></a>VERIFICAR FACTURA</h5>
 						<p class="text-justify">Te ayudamos a descargar XML del SAT de forma masiva todas tus facturas recibidas, validar y resguardar los CFDI en línea de una manera sencilla, práctica y GRATIS. Descarga XML, Recepción y Validador de comprobantes fiscales digitales. ¡Entra y conocenos!</p>						
 					</div>
 				</div>
 		  	</div>
-		  	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank"><img src="images/pgn/receipts.svg" alt="recibos" height="60px" width="80px"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub">RECIBOS DE NÓMINA</h5>
+						<h5 class="fuente_tit_sub">SISTEMA DE PLANILLA</h5>
 						<p class="text-justify">Genera recibos de nómina y recibos de asimilados a salarios. Con tu base de datos de puestos y trabajadores, genera la nómina de cada periodo y envía los recibos de nómina por correo electrónico a tus colaboradores...</p>					
 					</div>
 				</div>
 		  	</div>
-		  	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank"><img src="images/pgn/accounting.svg" alt="contabilidad" height="60px" width="80px"></a>
 					<div class="caption">

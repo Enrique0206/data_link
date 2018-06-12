@@ -5,7 +5,7 @@ $(document).ready(
     // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
     $(window).scroll(function(){
       if ( $(this).scrollTop() > 360 ) {
-        $('#servicios p').show(700); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/
+        $('#servicios p').show(700); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/	       
       } 
     });     
   });
