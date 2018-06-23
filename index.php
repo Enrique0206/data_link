@@ -185,13 +185,13 @@
 										<span class="help-block"></span>
 									</div>
 									<div class="form-group" style="padding-top: 18px">
-										<button type="submit" class="btn btn-info btn-block">Comprar</button>    
+										<button type="submit" class="btn btn-block" style="background-color: #222C6F;color: white">Comprar</button>    
 									</div>
 								</form>
 
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-left">				 
-								<h2 class="modal-title" style="color: #FF0000"><strong></strong></h2>						
+								<h2 class="modal-title" style="color: #222C6F"><strong></strong></h2>						
 								<ul class="list-unstyled" style="line-height: 2">
 									<li><span class="fa fa-check text-success"></span> Vigencia de 12 meses.</li>
 									<li><span class="fa fa-check text-success"></span> Obten 10 folios y asesoria ¡GRATIS!</li>                          
@@ -227,16 +227,16 @@
 	  	<!--conceptos de facturacion--> 
 	  	   	
     	<!--equipo de trabajo-->
-    	<div id="equipo" class="container-fluid">
+    	<!--<div id="equipo" class="container-fluid">
 			<div class="container">
 			<h2 class="text-center fuente_tit_sub" style="color: #002EA0">NUESTRO EQUIPO DE TRABAJO</h2>
 			<img src="images/jpg/empleados.jpg" class="img-responsive" alt="foto_empleados">
 			</div>
-		</div>
+		</div>-->
     	<!--equipo de trabajo-->
     	   	
     	<!--enlaces-->
-	  <div id="enlaces" class="container-fluid tamanio_texto">
+	  <!--<div id="enlaces" class="container-fluid tamanio_texto">
 		  <h2 class="text-center fuente_tit_sub">COMPLEMENTOS DE FACTURACION ELECTRONICA</h2>
 		<div class="container text-center">
 			<div class="row">			
@@ -293,21 +293,7 @@
 						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
 					</div>
 				</div>					
-				
-				<!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/car.png" alt="divisas">
-							<h5 class="fuente_tit_sub"><strong>Complemento Vehicular</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento para incorporar la información relativa a los estímulos por la renovación del parque vehicular del autotransporte y por  el que  se otorgan medidas para la sustitución de vehículos de autotransporte de pasaje y carga.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>-->							
-				
+					
 				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
@@ -334,9 +320,7 @@
 						</div>
 						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
 					</div>
-				</div>
-				
-							
+				</div>				
 				
 				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 					<div class="row">
@@ -350,21 +334,7 @@
 						</div>
 						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
 					</div>
-				</div>					
-							
-				<!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/plane.png" alt="aeroplano">
-							<h5 class="fuente_tit_sub"><strong>Complemento Aerolíneas</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento utilizado por los contribuyentes que realicen erogaciones por concepto de servicios de transporte aéreo de pasajeros a través de los boletos de avión.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>-->
+				</div>							
 				
 				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 					<div class="row">
@@ -407,21 +377,7 @@
 						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
 					</div>
 				</div>
-				
-				<!--<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/bitcoin.png" alt="divisas">
-							<h5 class="fuente_tit_sub"><strong>Complemento Divisas</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento utilizado para identificar las operaciones de compra y venta de divisas que realizan los centros cambiarios y las casas de cambio; haciendo mención expresa que los comprobantes se expiden por la 'compra', o bien, por la 'venta' de divisas.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>-->	
-				
+						
 				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
@@ -437,8 +393,8 @@
 				</div>		
 			</div>
 		</div>
-   	</div>   	
-    <!--enlaces-->	
+   	</div>-->	
+		<!--enlaces-->	
     
 
 	<?php include './includes/footer.php';?>

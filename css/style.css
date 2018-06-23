@@ -87,7 +87,7 @@ padding-bottom: 30px;
     display:none;
 }
 
-#enlaces img{
+/*#enlaces img{
     transition:all 1s;
 }
 
@@ -97,14 +97,14 @@ padding-bottom: 30px;
 }
 .col-lg-6.col-md-6.col-sm-12.col-12 .row .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
     padding-top: 5px;
-}
+}*/
 
     /*enlaces*/
-    .rotate:hover {
+    /*.rotate:hover {
          -webkit-transform: rotateY(-180deg);
          -ms-transform: rotateY(-180deg);
          transform: rotateY(-180deg);
-      }
+      }*/
     /*enlaces*/
 
 /*pie de pagina*/
@@ -232,7 +232,7 @@ padding-bottom: 30px;
 	/*conceptos*/
 		
 	/*equipo*/
-	#equipo {
+	/*#equipo {
     background-color: rgba(58,229,179,1.00);
 	padding-top: 40px;
 	padding-bottom: 70px;
@@ -240,18 +240,18 @@ padding-bottom: 30px;
 
 	#equipo .text-center {
 	padding-bottom: 50px;
-	}
+	}*/
 	/*equipo*/
 	
 	/*enlaces*/
-	#enlaces {
+	/*#enlaces {
 	background-color: #E9E9E9;
 	padding-top: 40px;	
 	}
 
 	#enlaces .text-center {
 	padding-bottom: 50px; 
-	}
+	}*/
 	/*enlaces*/
 	
 }
@@ -328,7 +328,7 @@ padding-bottom: 30px;
 	/*conceptos*/
 		
 	/*equipo*/
-	#equipo {
+	/*#equipo {
         background-color: rgba(58,229,179,1.00);
 	padding-top: 40px;
 	padding-bottom: 70px;
@@ -336,18 +336,18 @@ padding-bottom: 30px;
 
 	#equipo .text-center {
 	padding-bottom: 50px;
-	}
+	}*/
 	/*equipo*/
 	
 	/*enlaces*/
-	#enlaces {
+	/*#enlaces {
 	background-color: #E9E9E9;
 	padding-top: 40px;	
 	}
 
 	#enlaces .text-center {
 	padding-bottom: 50px; 
-	}
+	}*/
 	/*enlaces*/
 }
 
@@ -435,7 +435,7 @@ padding-bottom: 30px;
 	/*conceptos*/
 		
 	/*equipo*/
-	#equipo {
+	/*#equipo {
         background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
@@ -443,18 +443,18 @@ padding-bottom: 30px;
 
 	#equipo .text-center {
 	padding-bottom: 26px;
-	}
+	}*/
 	/*equipo*/
 	
 	/*enlaces*/
-	#enlaces {
+	/*#enlaces {
 	background-color: #E9E9E9;
 	padding-top: 16px;	
 	}
 
 	#enlaces .text-center {
 	padding-bottom: 40px; 
-	}
+	}*/
 	/*enlaces*/
 	
 }
@@ -535,7 +535,7 @@ padding-bottom: 30px;
 	/*conceptos*/
 		
 	/*equipo*/
-	#equipo {
+	/*#equipo {
         background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
@@ -543,17 +543,17 @@ padding-bottom: 30px;
 
 	#equipo .text-center {
 	padding-bottom: 26px;
-	}
+	}*/
 	/*equipo*/
 	
 	/*enlaces*/
-	#enlaces {
+	/*#enlaces {
 	background-color: #E9E9E9;
 	padding-top: 16px;	
 	}
 
 	#enlaces .text-center {
 	padding-bottom: 40px; 
-	}
+	}*/
 	/*enlaces*/
 }
