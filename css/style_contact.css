@@ -1,0 +1,32 @@
+#contacto {
+	/*background-image:url(../images/jpg/network.jpg);
+        background-attachment:fixed;
+        background-size:cover;
+        background-position:center;*/
+
+}
+
+#select_cont {
+    padding-top: 180px;
+    padding-bottom: 180px;
+   
+}
+.col-lg-6.col-md-6.col-sm-12.col-xs-12 .form-group #nombre {
+	border: none;
+	outline: 0px;	
+}
+
+
+#select_cont input {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #1FAD64;
+	border-top: 0;
+    width: 100%;
+    background-color:rgba(255,255,255,0.00);
+        
+}
+
+.clase_input {
+    padding-top: 16px;    
+}

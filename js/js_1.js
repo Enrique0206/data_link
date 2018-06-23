@@ -4,8 +4,8 @@ $(document).ready(
   function(){
     // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
     $(window).scroll(function(){
-      if ( $(this).scrollTop() > 360 ) {
-        $('#servicios p').show(700); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/	       
+      if ( $(this).scrollTop() > 60 ) {
+        $('#servicios p').show(600); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/	       
       } 
     });     
   });
@@ -23,8 +23,8 @@ $(document).ready(
   function(){
     // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
     $(window).scroll(function(){
-      if ( $(this).scrollTop() > 1500 ) {
-        $("#conceptos p").show(700);
+      if ( $(this).scrollTop() > 1000 ) {
+        $("#conceptos p").show(600);
       };
     }); 
   });

@@ -1,78 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Data_link</title>
-    <!--bootstrap v 3.3.7-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-	
-	<link href="css/ekko-lightbox.css" rel="stylesheet" type="text/css"/>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
-	<link href="css/style_nav.css" rel="stylesheet" type="text/css"/>
-	<link href="css/style.css" rel="stylesheet" type="text/css"/>
-	
-	<link rel="icon" href="images/pgn/logo.ico">
-   
-   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"><!--estilo parrafos--> 
-   <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet"><!--titulos y subtitulos-->
-    
+     <?php include './includes/head.php';?>    
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style_contact.css" rel="stylesheet" type="text/css">
   </head>
   
   <body>	  
-	  <!--menu de navegacion-->
-	  <nav class="navbar">	
-		<div class="container">
-			<!--boton barra menu responsive-->
-			<div class="navbar-header">
-			<a class="navbar-brand" href="index.php"><img src="images/pgn/logo.png"alt="logo"></a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				
-			</div>
-			  <!--boton barra menu responsive-->
-
-
-			<!--items del menu-->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-size: 12px">			
-				<ul class="nav navbar-nav navbar-right">
-					<li><a class="items" href=""><strong>INICIO</strong></a></li>								       
-					<li class="dropdown">
-						<a class="items" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>SERVICIOS</strong><span class="caret"></span></a>
-						<ul class="dropdown-menu">
-						  <li><a class="items" href="#">CONTABILIDAD ELECTRONICA</a></li>						  
-						  <li><a class="items" href="#">VERSION ERP</a></li>						  
-						  <li><a class="items" href="#">TIMBRADO</a></li>						 
-						  <li><a class="items" href="#">CONTADORES ASOCIADOS</a></li>						  
-						  <li><a class="items" href="#">PRECIOS</a></li>						  
-						  <li><a class="items" href="#">CONTADORES ASOCIADOS</a></li>			  
-						</ul>
-					</li>					
-					<li><a class="items" href=""><strong>CONTACTOS</strong></a></li>
-				</ul>
-			</div>
-			  <!--items del menu-->
-		</div>
-	</nav>
-  	<!--menu de navegacion-->
+	
+   <?php include './includes/header.php';?>
 	  
 	<!--slider-->
 	<div id="slider" class="container-fluid text-center">
 		<img src="images/jpg/slider5.jpg" class="img-responsive" alt="slider">
 	</div>
-	<!--slider-->
-    
+	<!--slider-->    
 	    
 	<!--contenido -->
   	<div id="contenido" class="container">	
   		
-		<div id="resenia" class="row">
+		<!--<div id="resenia" class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>				
 			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 				<h1 class="fuente_tit_sub">SISTEMA DE FACTURA ELECTRÓNICA CFDI</h1>
@@ -81,43 +28,43 @@
 				</p>
 			</div>
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>			
-		</div>
+		</div>-->
   		
   		
   		<!--serivios principales-->
 		<div id="servicios" class="row tamanio_texto">
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="text-center">
-					<a href=""><img src="images/pgn/bill.svg" alt="factura" height="60px" width="80px"></a>
+					<a href=""><img src="images/pgn/bill.png" alt="factura"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub">FACTURAR EN LINEA</h5>
+						<h5 class="fuente_tit_sub"><a href="">FACTURAR EN LINEA</a></h5>
 						<p class="text-justify">Genera y Envía cualquier CFDI como Facturas, Recibos de honorarios, Recibos de arrendamiento, Notas de crédito, Recibos de donativos, Carta porte y mucho más para hacer la facturación en línea...</p>						
 					</div>
 				</div>
 		  	</div>
 		  	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
-					<a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank"><img src="images/pgn/download.svg" alt="descarga" height="60px" width="80px"></a>
+					<a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank"><img src="images/pgn/download.png" alt="descarga"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"></a>VERIFICAR FACTURA</h5>
+						<h5 class="fuente_tit_sub"><a href="">VERIFICAR FACTURA</a></h5>
 						<p class="text-justify">Te ayudamos a descargar XML del SAT de forma masiva todas tus facturas recibidas, validar y resguardar los CFDI en línea de una manera sencilla, práctica y GRATIS. Descarga XML, Recepción y Validador de comprobantes fiscales digitales. ¡Entra y conocenos!</p>						
 					</div>
 				</div>
 		  	</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
-					<a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank"><img src="images/pgn/receipts.svg" alt="recibos" height="60px" width="80px"></a>
+					<a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank"><img src="images/pgn/receipts.png" alt="recibos"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub">SISTEMA DE PLANILLA</h5>
+						<h5 class="fuente_tit_sub"><a href="">SISTEMA DE PLANILLA</a></h5>
 						<p class="text-justify">Genera recibos de nómina y recibos de asimilados a salarios. Con tu base de datos de puestos y trabajadores, genera la nómina de cada periodo y envía los recibos de nómina por correo electrónico a tus colaboradores...</p>					
 					</div>
 				</div>
 		  	</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 linea">
 				<div class="text-center">
-					<a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank"><img src="images/pgn/accounting.svg" alt="contabilidad" height="60px" width="80px"></a>
+					<a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank"><img src="images/pgn/accounting.png" alt="contabilidad"></a>
 					<div class="caption">
-					<h5 class="fuente_tit_sub">CONTABILIDAD ELECTRÓNICA</h5>						
+						<h5 class="fuente_tit_sub"><a href="">CONTABILIDAD ELECTRÓNICA</a></h5>						
 						<p class="text-justify">Nosotros llevamos tu contabilidad, hacemos el cálculo de impuestos y presentamos tus declaraciones.
 						 	Somos tu Contador.
 						</p>						
@@ -134,7 +81,7 @@
 			<div class="container text-center">
 				<h1 class="fuente_tit_sub">FACTURACION EN LINEA A LA MEDIDA DE SU NEGOCIO</h1>
 			</div>
-			<div style="height: 3px; background-color: #4DE7BE"></div>
+			
 		</div>
 	
 		<div id="ventas" class="container-fluid tamanio_texto">
@@ -278,52 +225,7 @@
 			</div>			
 	  	</div>  	
 	  	<!--conceptos de facturacion--> 
-	  	
-	  	<!--videos-->   
-		<!--<div id="videos" class="container-fluid tamanio_texto">	 		
-			<div class="container espacios_videos">
-				<div class="row text-center entre_videos">				
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<h4 class="text-left fuente_tit_sub" style="color: #002EA0">APRENDE A REGISTRATE Y CONTRATAR NUESTRO SISTEMA DE FACTURACION</h4>
-						<p class="text-justify">Ingrese a nuestro Portal web en donde de manera sencilla se registrará como persona física o moral dependiendo su caso, siga las instrucciones, dese de alta en nuestro sistema y comience su Facturación en Línea. De manera fácil, rápida y segura podrá emitir sus CFDI (Comprobantes Fiscales Digitales por Internet).
-						</p>				
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
-							<div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">							
-								<a href="https://www.youtube.com/watch?v=rWgbCgqP8zo" data-toggle="lightbox">
-									<img src="images/jpg/video1.jpg" class="img-thumbnail img-responsive"alt="video">
-								</a>
-							</div>
-							<div class="col-lg-1 col-md-3 col-sm-3 col-xs-12"></div>
-						</div>
-
-					</div>						
-				</div>
-				<div class="row text-center entre_videos">				
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<h4 class="text-left fuente_tit_sub" style="color: #002EA0">CREAR FACTURAS ELECRONICAS</h4>
-						<p class="text-justify">Cree cualquier Comprobante Fiscal Digital por Internet (CFDI) al instante con nuestro sistema de facturación a clientes nuevos y ya registrados, visualice sus facturas en PDF y envíelas a sus clientes por correo electrónico, fácil, rápido y sencillo con Facturador.com, somos Proveedor Autorizado de Certificación (PAC) No. 56179 por el SAT, para emitir facturas electrónicas.
-						</p>				
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
-							<div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">							
-								<a href="https://www.youtube.com/watch?v=7MO8vEDqlZU" data-toggle="lightbox">
-									<img src="images/jpg/video1.jpg" class="img-thumbnail img-responsive"alt="video">
-								</a>
-							</div>
-							<div class="col-lg-1 col-md-3 col-sm-3 col-xs-12"></div>
-						</div>
-
-					</div>						
-				</div>
-			</div>
-	  	</div>-->
-    	<!--videos-->   
-    	
+	  	   	
     	<!--equipo de trabajo-->
     	<div id="equipo" class="container-fluid">
 			<div class="container">
@@ -332,8 +234,7 @@
 			</div>
 		</div>
     	<!--equipo de trabajo-->
-    	
-    	
+    	   	
     	<!--enlaces-->
 	  <div id="enlaces" class="container-fluid tamanio_texto">
 		  <h2 class="text-center fuente_tit_sub">COMPLEMENTOS DE FACTURACION ELECTRONICA</h2>
@@ -539,42 +440,8 @@
    	</div>   	
     <!--enlaces-->	
     
-	<!--footer-->
-	<div id="pie" class="container-fluid tamanio_texto">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<h4 class="color_text_pie">Contactanos</h4>				
-					<h5>Data Link</h5>
-					<ul>
-						<li>Telefono: 017922794</li>
-						<li>Email: datalink@datalink.com</li>
-						<li>Direccion: Calle 17, n° 455, Urbanización Corpac</li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<h4 class="color_text_pie">Siguenos</h4>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-2"><img src="images/pgn/facebook.png"></div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-2"><img src="images/pgn/twitter.png"></div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-2"><img src="images/pgn/google-plus.png"></div>					
-					</div>
-					<!--<ul>
-						<li><img src="images/pgn/facebook.png"></li>
-						<li><img src="images/pgn/twitter.png"></li>
-						<li><img src="images/pgn/google-plus.png"></li>
-					</ul>-->
-				</div>
-				
-				
-			</div>
-		</div>
-	</div>
-	<!--footer-->
-	
-	
-	
+
+	<?php include './includes/footer.php';?>
 	
     
 
@@ -582,7 +449,7 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/ekko-lightbox.min.js" type="text/javascript"></script>
 	<a href="js/ekko-lightbox.min.js.map"></a>
-	<script src="js/js_1.js"></script>
+	<script src="js/js_1.js"></script>	
 	
 	<script>
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {

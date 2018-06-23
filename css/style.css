@@ -1,5 +1,5 @@
 body{
-	margin: 0;	
+    margin: 0;
 }
 
 /*#servicios .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
@@ -8,11 +8,10 @@ body{
 
 /*slider*/
 #slider{
-	padding: 0;
+    padding: 0;
 }
-
 #slider .img-responsive {
-	width: 100%;
+    width: 100%;
 }
 /*slider*/
 
@@ -20,19 +19,25 @@ body{
 /*clase para linea en servicios*/
 
 /*contenido*/
+#servicios a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
 
 /*clase para el tamano de texto de los parrafos y fuente*/
 .tamanio_texto {
-		font-size: 17px;
-		font-family: 'Abel', sans-serif;		
+font-size: 17px;
+font-family: 'Abel', sans-serif;		
 }
 /*clase para el tamano de texto de los parrafos*/
 
 /*clase para fuente titulos y subtitulos*/
 .fuente_tit_sub{
-	font-family: 'Song Myung', serif;
-        list-style: none;
-        text-decoration: none;
+font-family: 'Song Myung', serif;
+list-style: none;
+text-decoration: none;
 }
 /*clase para fuente titulos y subtitulos*/
 
@@ -42,26 +47,32 @@ body{
 
 /*ventas*/
 #precio_pack .container.text-center h1 {
-	color:rgba(255,255,255,1.00);
-	padding-top: 20px;
-	padding-bottom: 30px;
+color:#1F2478;
+padding-top: 20px;
+padding-bottom: 30px;
 }
 
 
+    /*clase para hover de folio -- ambas se aplican con jquery*/
+    .color_ventas {
+      color:#353B9C; 
+    }
 
-/*clase para hover de folio -- ambas se aplican con jquery*/
-.color_ventas {
-  color:blue; 
-}
-
+    
 .brillo {
     filter: brightness(80%);
 }
 /*clase para hover de folio*/
 
 #precio_pack {
-	padding: 0px;
-	background-color: rgba(0,35,119,0.85);
+    padding: 0px;
+    /*background-color: #002377;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22aa36+4,22aa36+33,4baf23+53,81cc70+76,d7e07b+100 */
+    background: #22aa36; /* Old browsers */
+    background: -moz-linear-gradient(left, #22aa36 4%, #22aa36 33%, #4baf23 53%, #81cc70 76%, #d7e07b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #22aa36 4%,#22aa36 33%,#4baf23 53%,#81cc70 76%,#d7e07b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #22aa36 4%,#22aa36 33%,#4baf23 53%,#81cc70 76%,#d7e07b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22aa36', endColorstr='#d7e07b',GradientType=1 ); /* IE6-9 */
 }
 
 .thumbnail .caption p {
@@ -70,9 +81,10 @@ body{
 }
 /*ventas*/
 
+
 /*conceptos*/
 #conceptos p{
-  display:none;
+    display:none;
 }
 
 #enlaces img{
@@ -80,50 +92,50 @@ body{
 }
 
 .container.text-center .row .col-lg-6.col-md-6.col-sm-12.col-12 {
-	padding-top: 25px;
-	padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 .col-lg-6.col-md-6.col-sm-12.col-12 .row .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
-	padding-top: 5px;
+    padding-top: 5px;
 }
-.rotate:hover
-  {
-     -webkit-transform: rotateY(-180deg);
-     -ms-transform: rotateY(-180deg);
-     transform: rotateY(-180deg);
-  }
-/*enlaces*/
 
+    /*enlaces*/
+    .rotate:hover {
+         -webkit-transform: rotateY(-180deg);
+         -ms-transform: rotateY(-180deg);
+         transform: rotateY(-180deg);
+      }
+    /*enlaces*/
 
 /*pie de pagina*/
 #pie {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color:rgba(35,35,35,1.00);
-	color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(35,35,35,1.00);
+    color: #ffffff;
 }
 
 .row .col-lg-4.col-md-4.col-sm-6.col-xs-12 ul {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 .col-lg-4.col-md-4.col-sm-6.col-xs-12 ul li {
-	text-decoration: none;
-	list-style: none;
-	padding-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 5px;
     font-size: 14px;
 }
 
 .row .col-lg-4.col-md-4.col-sm-6.col-xs-12 h4 {
-	padding-bottom: 12px;	
+    padding-bottom: 12px;	
 }
 
 .row .col-lg-4.col-md-4.col-sm-12.col-xs-12 h4 {
-	padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 
 .col-lg-4.col-md-4.col-sm-12.col-xs-12 .row .col-lg-12.col-md-12.col-sm-12.col-xs-2 {
-	padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .row .col-lg-12.col-md-12.col-sm-12.col-xs-2 img {
@@ -139,6 +151,8 @@ body{
 .color_text_pie{
     color: #CDCDCD;
 }
+
+
 /*pie de pagina*/
 
 
@@ -147,23 +161,23 @@ body{
 @media (min-width: 1200px) {	
 	
 	.linea {		
-	border-left: 1px solid #7CB342;
+	border-left: 1px solid rgba(0,35,119,0.85);
 	height: 82px;	
 	}
 	
 	#contenido {
 	position: relative;
-	padding-bottom: 170px;
+	padding-bottom: 100px;
 	}
 	
-	#resenia {	
+	/*#resenia {	
 	position: absolute;
-	z-index: 2; /* put .green-box above .dashed-box */ 
-	top: -180px;  
+	z-index: 2; *//* put .green-box above .dashed-box */ 
+	/*top: -180px;  
 	opacity: 0.9;
-	}
+	}*/
 	
-	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
+	/*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
 	color: #002377;
     padding-bottom: 30px;
     display:none;
@@ -173,22 +187,26 @@ body{
     color:#000000;
     padding-bottom: 30px;
     display:none;
-	}       
+	}     */
+	
+	
         
 	#servicios p {
 	display:none;
+        font-size: 16px;
+	color: rgba(0,0,0,0.63);
 	}
        
-	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
-	background-color:#86E773;
+	/*#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
+	background-color:#27AE60;
 	padding-top: 35px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	padding-left: 70px;
-	padding-right: 70px;
-	}	
+	padding-right: 70px;        
+	}	*/
 	
 	#contenido .row.tamanio_texto {
-	padding-top: 300px;
+	padding-top: 100px;
 	}
 	
 	#ventas {
@@ -204,6 +222,102 @@ body{
 	#conceptos {
 	padding-top: 100px;
 	padding-bottom: 90px;
+	}
+
+	.line_vetical {	
+	margin-top: 26px;
+	border-left: 1px solid rgba(0,35,119,0.85);
+	min-height: 220px;
+	}
+	/*conceptos*/
+		
+	/*equipo*/
+	#equipo {
+    background-color: rgba(58,229,179,1.00);
+	padding-top: 40px;
+	padding-bottom: 70px;
+	}
+
+	#equipo .text-center {
+	padding-bottom: 50px;
+	}
+	/*equipo*/
+	
+	/*enlaces*/
+	#enlaces {
+	background-color: #E9E9E9;
+	padding-top: 40px;	
+	}
+
+	#enlaces .text-center {
+	padding-bottom: 50px; 
+	}
+	/*enlaces*/
+	
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+     .linea {		
+	border-left: 1px solid #7CB342;
+	height: 82px;	
+	}
+    	
+	#contenido {
+	position: relative;
+	padding-bottom: 110px;
+	}
+	
+	/*#resenia {	
+	position: absolute;
+	z-index: 2;
+	top: -180px;  
+	opacity: 0.9;
+	}   */
+	
+	/*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
+    color: #002377;
+    padding-bottom: 30px;
+    display:none;
+ }*/
+
+
+    /*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+    color:#000000;
+    padding-bottom: 30px;
+    display:none;
+	}*/
+        
+	#servicios p {
+	display:none;
+	}
+        
+	/*#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
+	background-color:#86E773;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	padding-left: 70px;
+	padding-right: 70px;
+	}	*/
+	
+	#contenido .row.tamanio_texto {
+	padding-top: 100px;
+	}
+	
+	#ventas {
+	background-color: #E9E9E9;
+	padding-top: 46px;
+	padding-bottom: 30px;
+}
+	#ventas .container .row.text-center .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+	transition: 0.5s; /*para el hover con jquery*/
+	}
+	
+	/*conceptos*/
+	#conceptos {
+	padding-top: 100px;
+	padding-bottom: 100px;
 	}
 
 	.line_vetical {	
@@ -235,101 +349,6 @@ body{
 	padding-bottom: 50px; 
 	}
 	/*enlaces*/
-	
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px){
-    
-        .linea {		
-	border-left: 1px solid #7CB342;
-	height: 82px;	
-	}
-    	
-	#contenido {
-	position: relative;
-	padding-bottom: 110px;
-	}
-	
-	#resenia {	
-	position: absolute;
-	z-index: 2; /* put .green-box above .dashed-box */ 
-	top: -180px;  
-	opacity: 0.9;
-	}   
-	
-	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
-    color: #002377;
-    padding-bottom: 30px;
-    display:none;
-	}
-
-    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-    color:#000000;
-    padding-bottom: 30px;
-    display:none;
-	}
-        
-	#servicios p {
-	display:none;
-	}
-        
-	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
-	background-color:#86E773;
-	padding-top: 35px;
-	padding-bottom: 50px;
-	padding-left: 70px;
-	padding-right: 70px;
-	}	
-	
-	#contenido .row.tamanio_texto {
-	padding-top: 300px;
-	}
-	
-	#ventas {
-	background-color: #E9E9E9;
-	padding-top: 46px;
-	padding-bottom: 30px;
-}
-	#ventas .container .row.text-center .col-lg-4.col-md-4.col-sm-4.col-xs-12 {
-	transition: 0.5s; /*para el hover con jquery*/
-	}
-	
-	/*conceptos*/
-	#conceptos {
-	padding-top: 100px;
-	padding-bottom: 90px;
-	}
-
-	.line_vetical {	
-	margin-top: 26px;
-	border-left: 1px solid #7CB342;
-	min-height: 220px;
-	}
-	/*conceptos*/
-		
-	/*equipo*/
-	#equipo {
-    background-color: rgba(58,229,179,1.00);
-	padding-top: 40px;
-	padding-bottom: 70px;
-	}
-
-	#equipo .text-center {
-	padding-bottom: 50px;
-	}
-	/*equipo*/
-	
-	/*enlaces*/
-	#enlaces {
-	background-color: #E9E9E9;
-	padding-top: 40px;	
-	}
-
-	#enlaces .text-center {
-	padding-bottom: 50px; 
-	}
-	/*enlaces*/
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -342,49 +361,49 @@ body{
 	padding-bottom: 50px;
 	}
 	
-	#resenia {	
+	/*#resenia {	
 	position: absolute;
-	z-index: 2; /* put .green-box above .dashed-box */ 
+	z-index: 2;
 	top: -180px;  
 	opacity: 0.9;
-	}      
+	} */     
 	
-    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
+    /*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
         color: #002377;
         padding-bottom: 30px;
         display:none;
-	}
+	}*/
 
-        #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+        /*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
         color:#000000;
         padding-bottom: 30px;
         display:none;
-	}
+	}*/
      	
         /*servicios*/
 	#servicios {
-		padding-top: 44px;		
+	padding-top: 40px;		
 	}		
 	
 	#servicios .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
-		padding-bottom: 40px;
-                padding-top: 50px;
+	padding-bottom: 35px;
+        padding-top: 20px;
 	}
 	#servicios p {
 	display:none;
 	}	
 	/*servicios*/	
         
-	#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
+	/*#contenido #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 35px;
 	padding-bottom: 50px;
 	padding-left: 70px;
 	padding-right: 70px;
-	}
+	}*/
 	
 	#contenido .row.tamanio_texto {
-	padding-top: 300px;
+	padding-top: 80px;
 	}
 	
 	#ventas {
@@ -417,7 +436,7 @@ body{
 		
 	/*equipo*/
 	#equipo {
-    background-color: rgba(58,229,179,1.00);
+        background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
 	}
@@ -447,29 +466,29 @@ body{
 	}
 	
 	/*resenia*/
-	#resenia {	
+	/*#resenia {	
 	padding-top: 0px;
 	opacity: 0.9;
-	}   
+	}   */
 	
-	#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
+	/*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 h1 {
 	text-align: center;
 	color: #002377;
-    padding-bottom: 16px;
-    display:none;
-	}
+        padding-bottom: 16px;
+        display:none;
+	}*/
 
-    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
-    color:#000000;
-    padding-bottom: 30px;		
-    display:none;
-	}
+        /*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 p {
+        color:#000000;
+        padding-bottom: 30px;		
+        display:none;
+            }*/
         
-    #resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
+        /*#resenia .col-lg-8.col-md-8.col-sm-8.col-xs-12 {
 	background-color:#86E773;
 	padding-top: 12px;
 	padding-bottom: 0px;		
-	}	
+	}*/	
 	/*resenia*/
 	
 	/*servicios*/
@@ -517,7 +536,7 @@ body{
 		
 	/*equipo*/
 	#equipo {
-    background-color: rgba(58,229,179,1.00);
+        background-color: rgba(58,229,179,1.00);
 	padding-top: 20px;
 	padding-bottom: 50px;
 	}
