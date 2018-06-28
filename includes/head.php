@@ -12,7 +12,7 @@
 	<link href="css/style_nav.css" rel="stylesheet" type="text/css"/>
 	<link href="css/style.css" rel="stylesheet" type="text/css"/>
 	<link href="css/style_cliente.css" rel="stylesheet" type="text/css"/>
-	<link href="css/style_contact.css" rel="stylesheet" type="text/css"/>
+	<link href="css/style_contact.css" rel="stylesheet" type="text/css"/>	
 	
 	<link rel="icon" href="images/pgn/logo.ico">
    

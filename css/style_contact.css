@@ -1,14 +1,13 @@
 #contacto {
-	/*background-image:url(../images/jpg/network.jpg);
+	background-image:url(../images/jpg/contactanos.jpg);
         background-attachment:fixed;
         background-size:cover;
-        background-position:center;*/
-
+        background-position:center;        
 }
 
 #select_cont {
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 150px;
+    padding-bottom: 140px;
    
 }
 .col-lg-6.col-md-6.col-sm-12.col-xs-12 .form-group #nombre {
@@ -16,17 +15,98 @@
 	outline: 0px;	
 }
 
-
 #select_cont input {
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid #1FAD64;
-	border-top: 0;
-    width: 100%;
-    background-color:rgba(255,255,255,0.00);
-        
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #1FAD64;
+    border-top: 0;
+    width: 80%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    background-color:rgba(255,255,255,0.00);        
+}
+
+#select_cont input:focus {
+   outline: 0px; 
+   width: 100%;
+   border-bottom: 2px solid #304796;
+   box-shadow: none;
+   
 }
 
 .clase_input {
     padding-top: 16px;    
 }
+
+#boton{
+    padding-top: 40px;
+}
+
+#boton button{
+    background:rgba(255,255,255,0.00);  
+    border: 0px solid rgba(255,255,255,0.00);
+    color: #1FAD64;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    transition: 0.6s;
+}
+
+#boton button:hover{
+    background:rgba(255,255,255,0.00);  
+    border: 0px solid rgba(255,255,255,0.00);
+    color: #304796;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+    @media (min-width: 1200px) {
+
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px){
+        #tit_comp {
+        padding-top: 10px;
+        padding-bottom: 22px;
+        }      
+        
+        #select_cont {
+        padding-top: 80px;
+        padding-bottom: 82px;
+   
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px){
+        #tit_comp {
+        padding-top: 4px;
+        padding-bottom: 14px;
+        }
+
+        #tit_comp h1 {
+        font-size: 28px;
+        }
+        
+        #select_cont {
+        padding-top: 80px;
+        padding-bottom: 82px;
+   
+        }
+    }
+
+    @media (max-width: 767px){
+        #tit_comp {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        }
+
+        #tit_comp h1 {
+        font-size: 24px;
+        }
+        
+        #select_cont {
+        padding-top: 40px;
+        padding-bottom: 42px;
+   
+        }
+    }

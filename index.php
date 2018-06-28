@@ -3,41 +3,74 @@
   <head>
      <?php include './includes/head.php';?>    
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/slider_1.css" rel="stylesheet" type="text/css"/>
   <link href="css/style_contact.css" rel="stylesheet" type="text/css">
+  <link href="css/style_nav.css" rel="stylesheet" type="text/css">
   </head>
   
   <body>	  
 	
    <?php include './includes/header.php';?>
 	  
-	<!--slider-->
-	<div id="slider" class="container-fluid text-center">
-		<img src="images/jpg/slider5.jpg" class="img-responsive" alt="slider">
+	<!--slider-->	
+	<div class="container-fluid" style="margin: 0px;padding: 0px">
+		<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="3000" id="bs-carousel">
+			<!-- Overlay -->
+			<div class="overlay"></div>
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#bs-carousel" data-slide-to="1"></li>
+				<li data-target="#bs-carousel" data-slide-to="2"></li>
+			</ol>
+  
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item slides active">
+					<div class="slide-1"></div>
+					<div class="hero">
+						<hgroup>
+							<h1>Facturacion</h1>        
+							<h3 style="color: #47CE76">Realizacion tu facturacion en linea</h3>
+							<!--<button class="btn btn-hero btn-lg" role="button">See all features</button>-->
+						</hgroup>						
+					</div>
+				</div>
+				<div class="item slides">
+					<div class="slide-2"></div>
+					<div class="hero">        
+						<hgroup>
+							<h1>Planilla</h1>        
+							<h3 style="color: #47CE76">Genera tus recibos de nomina</h3>
+						</hgroup>       
+						
+					</div>
+				</div>
+				<div class="item slides">
+					<div class="slide-3"></div>
+					<div class="hero">        
+						<hgroup>
+							<h1>Contabilidad</h1>        
+							<h3 style="color: #47CE76">Llevamos tu contabilidad y calculo de impuestos</h3>
+						</hgroup>
+						
+					</div>
+				</div>
+			</div> 
+		</div>	
 	</div>
-	<!--slider-->    
-	    
+	<!--slider-->	
+	
 	<!--contenido -->
-  	<div id="contenido" class="container">	
-  		
-		<!--<div id="resenia" class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>				
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-				<h1 class="fuente_tit_sub">SISTEMA DE FACTURA ELECTRÓNICA CFDI</h1>
-				<p class="tamanio_texto text-justify">
-				Genera tus Comprobantes Fiscales Digitales por Internet (CFDI) de una forma sencilla, práctica y económica. Descarga de forma masiva todas las facturas electrónicas que recibes de tus proveedores y genera la Contabilidad Electrónica. Somos Proveedor Autorizado del SAT ¡Conócenos!				
-				</p>
-			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>			
-		</div>-->
-  		
-  		
+  	<div id="contenido" class="container">	 		
   		<!--serivios principales-->
 		<div id="servicios" class="row tamanio_texto">
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="text-center">
-					<a href=""><img src="images/pgn/bill.png" alt="factura"></a>
+					<a href="#" target="blank"><img src="images/pgn/bill.png" alt="factura"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="">FACTURAR EN LINEA</a></h5>
+						<h5 class="fuente_tit_sub"><a href="#" target="blank">FACTURAR EN LINEA</a></h5>
 						<p class="text-justify">Genera y Envía cualquier CFDI como Facturas, Recibos de honorarios, Recibos de arrendamiento, Notas de crédito, Recibos de donativos, Carta porte y mucho más para hacer la facturación en línea...</p>						
 					</div>
 				</div>
@@ -46,7 +79,7 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank"><img src="images/pgn/download.png" alt="descarga"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="">VERIFICAR FACTURA</a></h5>
+						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank">VERIFICAR FACTURA</a></h5>
 						<p class="text-justify">Te ayudamos a descargar XML del SAT de forma masiva todas tus facturas recibidas, validar y resguardar los CFDI en línea de una manera sencilla, práctica y GRATIS. Descarga XML, Recepción y Validador de comprobantes fiscales digitales. ¡Entra y conocenos!</p>						
 					</div>
 				</div>
@@ -55,7 +88,7 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank"><img src="images/pgn/receipts.png" alt="recibos"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="">SISTEMA DE PLANILLA</a></h5>
+						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank">SISTEMA DE PLANILLA</a></h5>
 						<p class="text-justify">Genera recibos de nómina y recibos de asimilados a salarios. Con tu base de datos de puestos y trabajadores, genera la nómina de cada periodo y envía los recibos de nómina por correo electrónico a tus colaboradores...</p>					
 					</div>
 				</div>
@@ -64,7 +97,7 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank"><img src="images/pgn/accounting.png" alt="contabilidad"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="">CONTABILIDAD ELECTRÓNICA</a></h5>						
+						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank">CONTABILIDAD ELECTRÓNICA</a></h5>						
 						<p class="text-justify">Nosotros llevamos tu contabilidad, hacemos el cálculo de impuestos y presentamos tus declaraciones.
 						 	Somos tu Contador.
 						</p>						
@@ -80,8 +113,7 @@
 		<div id="precio_pack" class="container-fluid">
 			<div class="container text-center">
 				<h1 class="fuente_tit_sub">FACTURACION EN LINEA A LA MEDIDA DE SU NEGOCIO</h1>
-			</div>
-			
+			</div>			
 		</div>
 	
 		<div id="ventas" class="container-fluid tamanio_texto">
@@ -224,182 +256,107 @@
 				</div>
 			</div>			
 	  	</div>  	
-	  	<!--conceptos de facturacion--> 
-	  	   	
-    	<!--equipo de trabajo-->
-    	<!--<div id="equipo" class="container-fluid">
+	  	<!--conceptos de facturacion-->  
+		
+		<!--clientes-->
+		<div id="clientes" class="container-fluid">
 			<div class="container">
-			<h2 class="text-center fuente_tit_sub" style="color: #002EA0">NUESTRO EQUIPO DE TRABAJO</h2>
-			<img src="images/jpg/empleados.jpg" class="img-responsive" alt="foto_empleados">
+				<h3 class="text-center fuente_tit_sub" style="color: #304796">NUESTROS CLIENTES</h3>
+            <div class="row">
+                <div class="board">                    
+                    <div class="board-inner">
+						<ul class="nav nav-tabs" id="myTab">
+							<div class="liner"></div>
+							<li class="active">
+								<a href="#home" data-toggle="tab">
+									<span class="round-tabs one">
+										<div><img src="images/pgn/home.png" alt="img_home" width="60%"></div>
+									</span> 
+								</a>
+							</li>
+							<li>
+								<a href="#profile" data-toggle="tab">
+									<span class="round-tabs two">
+										<img src="images/pgn/hotel.png" alt="img_hotel" width="60%">
+									</span> 
+								</a>
+							</li>
+							<li>
+								<a href="#messages" data-toggle="tab">
+									<span class="round-tabs three">
+										<img src="images/pgn/pesca.png" alt="img_barco" width="60%">
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#settings" data-toggle="tab">
+									<span class="round-tabs four">
+										<img src="images/pgn/industrial.png" alt="img_industrial" width="60%">
+									</span> 
+								</a>
+							</li>
+							<li>
+								<a href="clientes.php">
+									<span class="round-tabs five">
+										<img src="images/pgn/plus.png" alt="img_plus" width="60%">
+									</span>
+								</a>
+							</li>                     
+						</ul>
+					</div>
+
+                    <div class="tab-content">
+						<div class="tab-pane fade in active" id="home">
+							<h3 class="head text-center" style="color: #ffffff">Sector Inmobiliario</h3>
+							<p class="narrow text-center tamanio_texto">
+								Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+							</p>
+							<!--<p class="text-center">
+								<a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+							</p>-->
+						</div>
+						<div class="tab-pane fade" id="profile">
+							<h3 class="head text-center" style="color: #ffffff">Sector Hotelero</h3>
+							<p class="narrow text-center tamanio_texto">
+								Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+							</p>                          
+							<!--<p class="text-center">
+								<a href="" class="btn btn-success btn-outline-rounded green"> create your profile <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+							</p>-->                    
+						</div>
+						<div class="tab-pane fade" id="messages">
+							<h3 class="head text-center" style="color: #ffffff">Sector Pesca</h3>
+							<p class="narrow text-center tamanio_texto">
+								Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+							</p>                          
+							<!--<p class="text-center">
+								<a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+							</p>-->
+						</div>
+						<div class="tab-pane fade" id="settings">
+							<h3 class="head text-center" style="color: #ffffff">Sector Industrial</h3>
+							<p class="narrow text-center tamanio_texto">
+                              Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+							</p>                          
+							<!--<p class="text-center">
+								<a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+							</p>-->
+						</div>
+						<div class="tab-pane fade" id="doner">							
+							<h3 class="head text-center" style="color: #ffffff">Revisa nuestra Lista</h3>
+							<p class="narrow text-center tamanio_texto">
+								Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
 			</div>
-		</div>-->
-    	<!--equipo de trabajo-->
-    	   	
-    	<!--enlaces-->
-	  <!--<div id="enlaces" class="container-fluid tamanio_texto">
-		  <h2 class="text-center fuente_tit_sub">COMPLEMENTOS DE FACTURACION ELECTRONICA</h2>
-		<div class="container text-center">
-			<div class="row">			
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/worlwide.png" alt="comercio">
-							<h5 class="fuente_tit_sub"><strong>Comercio Exterior</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento concepto que permite incorporar a los fabricantes, ensambladores o distribuidores autorizados, así como aquéllos que importen algún producto.</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>	
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/importation.png" alt="importacion">
-							<h5 class="fuente_tit_sub"><strong>Datos de Importación</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento concepto que permite incorporar a los fabricantes, ensambladores o distribuidores autorizados, así como aquéllos que importen algún producto.</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>	
-							
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/impuesto.png" alt="impuesto">
-							<h5 class="fuente_tit_sub"><strong>Impuestos Locales</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento que especifica a detalle los impuestos locales aplicables al comprobante, lo puede utilizar cualquier persona física o moral, que por sus actividades requiera agregarlo a su CDFI, estos pueden ser impuestos por hospedaje, cedular, etc.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/educacion.png" alt="educacion">
-							<h5 class="fuente_tit_sub "><strong>Instituciones Educativas</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento concepto para la expedición de comprobantes fiscales por parte de Instituciones Educativas, aplicable para las personas físicas en relación con los pagos por servicios educativos, en el cual deben reflejar datos específicos de los alumnos.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>					
-					
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/manager.png" alt="administrar">
-							<h5 class="fuente_tit_sub"><strong>Notarios<br>Públicos</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento para el manejo de la enajenación de bienes inmuebles, en el cual se describe él o los inmuebles objeto del acto otorgado, mencionando datos como: tipo de inmueble, dirección, localidad, notaría, datos de operación.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>	
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/bitcoin.png" alt="divisas">
-							<h5 class="fuente_tit_sub"><strong>Complemento Divisas</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento utilizado para identificar las operaciones de compra y venta de divisas que realizan los centros cambiarios y las casas de cambio; haciendo mención expresa que los comprobantes se expiden por la 'compra', o bien, por la 'venta' de divisas.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>				
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/justice.png" alt="justicia">
-							<h5 class="fuente_tit_sub"><strong>Leyendas Fiscales</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento para incluir leyendas previstas en disposiciones fiscales, distintas a las contenidas en el estándar de los CFDI.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>							
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/complemento.png" alt="complemento">
-							<h5 class="fuente_tit_sub"><strong>Complemento Detallista</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento de carácter no obligatorio que ayuda a los contribuyentes para puedan adoptarlo a efecto de eficientar el procesamiento de la información.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>					
-				
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/payment.png" alt="pago_especies">
-							<h5 class="fuente_tit_sub"><strong>Pago en Especie</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento utilizado por los contribuyentes para la expedición de comprobantes fiscales por la donación en la facilidad fiscal de Pago en Especie.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>		
-												
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/bomb.png" alt="predio">
-							<h5 class="fuente_tit_sub"><strong>Certificado</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento para incorporar la información que integra el certificado de destrucción de vehículos destruidos por los centros de destrucción autorizados por el SAT.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>
-						
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">							
-							<img class="rotate" src="images/pgn/house.png" alt="predio">
-							<h5 class="fuente_tit_sub"><strong>Cuenta Predial</strong></h5>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<p class="text-justify">Complemento que se utiliza para los comprobantes de arrendamiento.
-							</p>
-						</div>
-						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
-					</div>
-				</div>		
 			</div>
 		</div>
-   	</div>-->	
-		<!--enlaces-->	
-    
-
-	<?php include './includes/footer.php';?>
+		<!--clientes-->
 	
-    
+		<?php include './includes/footer.php';?>    
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

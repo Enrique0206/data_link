@@ -17,10 +17,10 @@
 			<!--items del menu-->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-size: 12px">			
 				<ul class="nav navbar-nav navbar-right">					
-					<li><a class="items" href="http://www.dinamosolutions.com/gasuelhr.html" target="blank"><strong>SOFTWARE<br>DE PLANILLA</strong></a></li>	
-					<li><a class="items" href="http://www.optimice.com.pe/legal/" target="blank"><strong>CONTABILIDAD<br>ELECTRONICA</strong></a></li>					
+					<li><a class="items" href="http://www.dinamosolutions.com/gasuelhr.html" target="blank"><strong>SOFTWARE DE PLANILLA</strong></a></li>	
+					<li><a class="items" href="http://www.optimice.com.pe/legal/" target="blank"><strong>CONTABILIDAD ELECTRONICA</strong></a></li>					
 					<li class="dropdown">
-						<a class="items" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>ESTUDIO<br>CONTABLE</strong><span class="caret"></span></a>
+						<a class="items" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>ESTUDIO CONTABLE</strong><span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						  <li><a class="items" href="#">CONTABILIDAD Y TRIBUTACION</a></li>						  
 						  <li><a class="items" href="#">ASESORIA CONTABLE, TRIBUTARIO Y LEGAL</a></li>						  
@@ -29,7 +29,8 @@
 						  <li><a class="items" href="#">CONSTITUCION DE EMPRESAS</a></li>					  		  
 						</ul>
 					</li>
-					<li><a class="items" href="clientes.php"><strong>CLIENTES</strong></a></li>					
+					<li><a class="items" href="clientes.php"><strong>CLIENTES</strong></a></li>	
+					<li><a class="items" href="contactos.php"><strong>CONTACTO</strong></a></li>
 				</ul>
 			</div>
 			  <!--items del menu-->
