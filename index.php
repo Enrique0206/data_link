@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-     <?php include './includes/head.php';?>    
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/slider_1.css" rel="stylesheet" type="text/css"/>
-  <link href="css/style_contact.css" rel="stylesheet" type="text/css">
-  <link href="css/style_nav.css" rel="stylesheet" type="text/css">
+     <?php include './includes/head.php';?>     
   </head>
   
   <body>	  
@@ -70,8 +66,8 @@
 				<div class="text-center">
 					<a href="#" target="blank"><img src="images/pgn/bill.png" alt="factura"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="#" target="blank">FACTURAR EN LINEA</a></h5>
-						<p class="text-justify">Genera y Envía cualquier CFDI como Facturas, Recibos de honorarios, Recibos de arrendamiento, Notas de crédito, Recibos de donativos, Carta porte y mucho más para hacer la facturación en línea...</p>						
+						<h5 class="fuente_tit_sub titu"><a href="#" target="blank">FACTURAR EN LINEA</a></h5>
+						<p class="text-justify parra">Genera y Envía cualquier CFDI como Facturas, Recibos de honorarios, Recibos de arrendamiento, Notas de crédito, Recibos de donativos, Carta porte y mucho más para hacer la facturación en línea...</p>						
 					</div>
 				</div>
 		  	</div>
@@ -79,8 +75,8 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank"><img src="images/pgn/download.png" alt="descarga"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank">VERIFICAR FACTURA</a></h5>
-						<p class="text-justify">Te ayudamos a descargar XML del SAT de forma masiva todas tus facturas recibidas, validar y resguardar los CFDI en línea de una manera sencilla, práctica y GRATIS. Descarga XML, Recepción y Validador de comprobantes fiscales digitales. ¡Entra y conocenos!</p>						
+						<h5 class="fuente_tit_sub titu"><a href="https://www.facturadorelectronico.com/validar-cfdi.html" target="blank">VERIFICAR FACTURA</a></h5>
+						<p class="text-justify parra">Te ayudamos a descargar XML del SAT de forma masiva todas tus facturas recibidas, validar y resguardar los CFDI en línea de una manera sencilla, práctica y GRATIS. Descarga XML, Recepción y Validador de comprobantes fiscales digitales. ¡Entra y conocenos!</p>						
 					</div>
 				</div>
 		  	</div>
@@ -88,8 +84,8 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank"><img src="images/pgn/receipts.png" alt="recibos"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank">SISTEMA DE PLANILLA</a></h5>
-						<p class="text-justify">Genera recibos de nómina y recibos de asimilados a salarios. Con tu base de datos de puestos y trabajadores, genera la nómina de cada periodo y envía los recibos de nómina por correo electrónico a tus colaboradores...</p>					
+						<h5 class="fuente_tit_sub titu"><a href="https://www.facturadorelectronico.com/recibos-de-nomina.html" target="blank">SISTEMA DE PLANILLA</a></h5>
+						<p class="text-justify parra">Genera recibos de nómina y recibos de asimilados a salarios. Con tu base de datos de puestos y trabajadores, genera la nómina de cada periodo y envía los recibos de nómina por correo electrónico a tus colaboradores...</p>					
 					</div>
 				</div>
 		  	</div>
@@ -97,8 +93,8 @@
 				<div class="text-center">
 					<a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank"><img src="images/pgn/accounting.png" alt="contabilidad"></a>
 					<div class="caption">
-						<h5 class="fuente_tit_sub"><a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank">CONTABILIDAD ELECTRÓNICA</a></h5>						
-						<p class="text-justify">Nosotros llevamos tu contabilidad, hacemos el cálculo de impuestos y presentamos tus declaraciones.
+						<h5 class="fuente_tit_sub titu"><a href="https://www.facturadorelectronico.com/software-de-contabilidad-electronica.html" target="blank">CONTABILIDAD ELECTRÓNICA</a></h5>						
+						<p class="text-justify parra">Nosotros llevamos tu contabilidad, hacemos el cálculo de impuestos y presentamos tus declaraciones.
 						 	Somos tu Contador.
 						</p>						
 					</div>
@@ -122,7 +118,7 @@
 
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 						<div class="thumbnail">			  
-							<div class="caption">
+							<div class="caption box">
 								<h3>100 Folios</h3>
 								<h2>$490</h2>
 								<p>Folios con vigencia de 12 meses</p>
@@ -133,7 +129,7 @@
 					</div>					
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 						<div class="thumbnail">			  
-							<div class="caption">
+							<div class="caption box">
 								<h3>200 Folios</h3>
 								<h2>$900</h2>
 								<p>Folios con vigencia de 12 meses</p>
@@ -144,7 +140,7 @@
 					</div>	
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 						<div class="thumbnail">			  
-							<div class="caption">
+							<div class="caption box">
 								<h3>500 Folios</h3>
 								<h2>$1650</h2>
 								<p>Folios con vigencia de 12 meses</p>
@@ -156,7 +152,7 @@
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 						<div class="thumbnail">			  
-							<div class="caption">
+							<div class="caption box">
 								<h3>1000 Folios</h3>
 								<h2>$2700</h2>
 								<p>Folios con vigencia de 12 meses</p>
@@ -166,7 +162,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 						<div class="thumbnail">			  
-							<div class="caption">
+							<div class="caption box">
 								<h3>A la medida</h3>
 								<h2>$...</h2>
 								<p>Folios con vigencia de 12 meses</p>
@@ -362,7 +358,8 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/ekko-lightbox.min.js" type="text/javascript"></script>
 	<a href="js/ekko-lightbox.min.js.map"></a>
-	<script src="js/js_1.js"></script>	
+	<script src="js/scrollreveal.min.js"></script>
+	<script src="js/js_1.js"></script>
 	
 	<script>
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {

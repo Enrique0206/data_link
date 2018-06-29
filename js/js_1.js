@@ -1,25 +1,25 @@
 
 /*parrafo 2do bloque*/
-$(document).ready(
-  function(){
+//$(document).ready(
+  //function(){
     // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
-    $(window).scroll(function(){
-      if ( $(this).scrollTop() > 60 ) {
-        $('#servicios p').show(600); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/	       
-      } 
+    //$(window).scroll(function(){
+      //if ( $(this).scrollTop() > 60 ) {
+        //$('#servicios p').show(600); /*duracion 0.7 segundos - se puede poner otro tipo de efecto como fade in ver archivo evento scrooll*/	       
+     /* } 
     });     
-  });
+  });*/
 /*parrafo 2do bloque*/
 
 /*fade in a resenia*/
-$(document).ready(function(){         
+/*$(document).ready(function(){         
     $("#resenia h1").fadeIn(800);
-    $("#resenia p").fadeIn(1000);   });
+    $("#resenia p").fadeIn(1000);   });*/
 /*fade in a resenia*/
 
 
 /*show en conceptos*/
-$(document).ready(
+/*$(document).ready(
   function(){
     // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
     $(window).scroll(function(){
@@ -27,10 +27,10 @@ $(document).ready(
         $("#conceptos p").show(600);
       };
     }); 
-  });
+  });*/
 /*show en conceptos*/
 
-$('#exampleModal').on('show.bs.modal', function (event) {
+/*$('#exampleModal').on('show.bs.modal', function (event) {
 	var button = $(event.relatedTarget); // Button that triggered the modal
 	 var recipient = button.data('whatever'); // Extract info from data-* attributes
 	// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
@@ -38,10 +38,10 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 	var modal = $(this);
 	modal.find('.modal-title').text(recipient);
 	//modal.find('.modal-body input').val(recipient);
-});
+});*/
 
 /*hover  titulo en ventas*/
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#ventas button:eq(0)").hover(function(){
         $("#ventas h3:eq(0)").toggleClass("color_ventas");        
     });
@@ -57,11 +57,11 @@ $(document).ready(function(){
      $("#ventas button:eq(4)").hover(function(){
         $("#ventas h3:eq(4)").toggleClass("color_ventas");        
     });     
-});
+});*/
 /*hover  titulo en ventas*/
 
 /*hover fondo en ventas*/
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#ventas .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:eq(0)").hover(function(){          
         $("#ventas .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:eq(0)").toggleClass("brillo"); 
     });
@@ -77,5 +77,38 @@ $(document).ready(function(){
     $("#ventas .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:eq(4)").hover(function(){          
         $("#ventas .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:eq(4)").toggleClass("brillo"); 
     });    
-});
+});*/
 /*hover fondo en ventas*/
+
+window.sr = ScrollReveal();
+
+$(document).ready(
+  function(){     
+    $(window).scroll(function(){
+      if ( $(this).scrollTop() > 200 ) {
+          var fooContainer = document.getElementById('servicios');            
+            sr.reveal('.titu', { container: fooContainer, duration:700 });
+            sr.reveal('.parra', { container: fooContainer, duration:1200 });  
+      } 
+    });     
+  });
+  
+  
+  
+ /*servicios*/
+sr.reveal('.box', { duration: 500 }, 100);
+/*servicios*/
+
+
+/*ventas*/
+  /*$(document).ready(
+  function(){
+    // Comprobar si estamos, al menos, 100 px por debajo de la posición top    
+    $(window).scroll(function(){
+      if ( $(this).scrollTop() > 800 ) {        
+        window.sr = ScrollReveal();
+        sr.reveal('.sale', { duration: 500 }, 100);             
+      };
+    }); 
+  });*/
+  /*ventas*/

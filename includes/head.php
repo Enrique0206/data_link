@@ -10,6 +10,7 @@
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<link href="css/style_nav.css" rel="stylesheet" type="text/css"/>
+	<link href="css/slider_1.css" rel="stylesheet" type="text/css"/>
 	<link href="css/style.css" rel="stylesheet" type="text/css"/>
 	<link href="css/style_cliente.css" rel="stylesheet" type="text/css"/>
 	<link href="css/style_contact.css" rel="stylesheet" type="text/css"/>	

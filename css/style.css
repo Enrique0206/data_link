@@ -66,7 +66,7 @@ body{
 
 /*conceptos*/
 #conceptos p{
-   display:none;
+   /*display:none;*/
 }
 
 #conceptos .row h3 {
@@ -352,7 +352,7 @@ a .round-tabs img {
 	}
 	       
 	#servicios p {
-	display:none;       
+	/*display:none;  */    
 	}
        	
 	#contenido .row.tamanio_texto {
@@ -441,7 +441,7 @@ a .round-tabs img {
 	}	
         
 	#servicios p {
-	display:none;
+	/*display:none;*/
 	}
         	
 	#contenido .row.tamanio_texto {
@@ -534,7 +534,7 @@ a .round-tabs img {
         padding-top: 20px;
 	}
 	#servicios p {
-	display:none;
+	/*display:none;*/
 	}	
 	/*servicios*/	
        	
@@ -634,7 +634,7 @@ a .round-tabs img {
 	}
         
 	#servicios p {
-	display:none;
+	/*display:none;*/
 	}	
 	/*servicios*/
 	
